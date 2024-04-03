@@ -1,0 +1,5 @@
+lecteurcarte.o: lecteurcarte.cpp lecteurcarte.h
+borne.o: borne.cpp lecteurcarte.h voyants.h boutons.h timer.h
+voyants.o: voyants.cpp voyants.h
+timer.o: timer.cpp timer.h
+boutons.o: boutons.cpp boutons.h
